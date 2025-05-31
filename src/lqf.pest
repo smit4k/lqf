@@ -1,0 +1,16 @@
+WHITESPACE = _{ " " | "\t" | "\n" }
+
+file = { SOI ~ section* ~ EOI }
+
+section = { section_header ~ assignment* }
+section_header = { ">" ~ identifier }
+assignment = { identifier ~ ">>" ~ value }
+
+value = _{ string | number | boolean | array | null }
+string = { "\"" ~ (!"\"" ~ ANY)* ~ "\"" }
+number = { ASCII_DIGIT+ ~ ("." ~ ASCII_DIGIT+)? }
+boolean = { "true" | "false" }
+null = { "null" }
+array = { "[" ~ (value ~ ("," ~ value)*)? ~ "]" }
+
+identifier = @{ ASCII_ALPHANUMERIC+ }
