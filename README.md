@@ -4,7 +4,7 @@
 
 This Rust crate provides a parser for `.lqf` files using [pest.rs](https://pest.rs/), ready for use in config-heavy projects or DSL exploration.
 
-You can find a full example of an lqf file in [example.lqf](example.lqf)
+You can find a full example of a lqf file in [example.lqf](example.lqf)
 
 What does **lqf** stand for? It stands for **Lightweight Quick Format**
 
