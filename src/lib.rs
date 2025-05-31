@@ -3,7 +3,7 @@ use pest_derive::Parser;
 use std::collections::HashMap;
 
 #[derive(Parser)]
-#[grammar = "lqf.pest"] // path to your pest grammar file
+#[grammar = "lqf.pest"]
 pub struct LqfParser;
 
 #[derive(Debug)]
