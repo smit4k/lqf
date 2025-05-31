@@ -4,6 +4,8 @@
 
 This Rust crate provides a parser for `.lqf` files using [pest.rs](https://pest.rs/), ready for use in config-heavy projects or DSL exploration.
 
+What does **lqf** stand for? It stands for **Lightweight Quick Format**
+
 ## ✨ Features
 
 - Simple syntax for sectioned key-value configuration
