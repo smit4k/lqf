@@ -1,0 +1,29 @@
+> server
+host >> "localhost"
+port >> 8080
+use_ssl >> true
+
+> database
+engine >> "postgres"
+host >> "db.internal"
+port >> 5432
+username >> "admin"
+password >> "s3cr3t"
+max_connections >> 20
+
+> features
+enabled >> ["search", "analytics", "dark_mode"]
+beta >> false
+
+> logging
+level >> "info"
+file >> "logs/app.log"
+
+> cache
+backend >> "redis"
+ttl_seconds >> 3600
+enabled >> true
+
+> meta
+version >> "1.0.0"
+maintainers >> ["bob@example.com", "gus@example.com"]
