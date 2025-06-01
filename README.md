@@ -10,13 +10,18 @@ What does **lqf** stand for? It stands for **Lightweight Quick Format**
 
 You can find a full example of an lqf file in [example.lqf](example.lqf)
 
-## ✨ Features
+## ✨ Features & Syntax
 
 - Simple syntax for sectioned key-value configuration
+  - Section header: `>`
+  - Assignment: `>>`
 - Supports:
-  - Strings, numbers, booleans
-  - Arrays
-  - `null` values
+  - Strings: `"text"`
+  - Numbers: `123`, `3.14`
+  - Booleans: `true`, `false`
+  - Arrays: `[1, 2, 3]`, `["a", "b"]`
+  - Null: `null`
+  - Comments: `#`
 - Built with [pest](https://pest.rs) — robust and expressive PEG-based parser
 
 ## 🧪 Example
@@ -77,17 +82,6 @@ Add this to your `Cargo.toml`
 [dependencies]
 lqf = "0.1.0"
 ```
-
-## 📝 Syntax Overview
-
-- `>` introduces a new section
-- `>>` assigns values to keys
-- Supported value types:
-  - Strings: `"text"`
-  - Numbers: `123`, `3.14`
-  - Booleans `true`, `false`
-  - Arrays: `[1, 2, 3]`, `["a", "b"]`
-  - Null: `null`
 
 ## 🤝 Contributing
 
