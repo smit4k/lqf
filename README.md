@@ -80,7 +80,7 @@ Add this to your `Cargo.toml`
 
 ```toml
 [dependencies]
-lqf = "0.1.0"
+lqf = "0.1.1"
 ```
 
 ## 🤝 Contributing
