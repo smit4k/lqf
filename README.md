@@ -1,3 +1,5 @@
+![lqf banner](lqf-banner.png)
+
 # lqf 🪶
 
 **lqf** is a **lightweight configuration format** featuring a clean, sectioned syntax centered around the use of the `>` symbol — designed to be easy to read, easy to write, and dead simple to parse.  
