@@ -89,6 +89,7 @@ Contributions are welcome! Feel free to open issues, submit pull requests, or di
 
 ## 🔮 Roadmap
 - [ ] Import support, ex: `!include "defaults.lqf"`
+- [ ] Inline tables, ex: `person >> { name: "Bob", age: 32, city: "Detroit" }`
 - [ ] Trailing commas
 
 
