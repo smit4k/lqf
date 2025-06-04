@@ -88,7 +88,6 @@ lqf = "0.1.1"
 Contributions are welcome! Feel free to open issues, submit pull requests, or discuss ideas.
 
 ## 🔮 Roadmap
-- [ ] Optional section values, ex: `> version >> "1.2.3"`
 - [ ] Import support, ex: `!include "defaults.lqf"`
 - [ ] Trailing commas
 
