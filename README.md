@@ -2,7 +2,7 @@
 
 # lqf 🪶
 
-**lqf** is a **lightweight configuration format** featuring a clean, sectioned syntax centered around the use of the `>` symbol — designed to be easy to read, easy to write, and dead simple to parse.  
+**lqf** is a **lightweight configuration format** featuring a clean, sectioned syntax centered around the use of the `>` symbol — designed to be easy to read, easy to write, and dead simple to parse. The official lqf specification can be found in [github.com/smit4k/lqf-spec](https://github.com/smit4k/lqf-spec)  
 
 This Rust crate provides a parser for `.lqf` files using [pest.rs](https://pest.rs/), ready for use in config-heavy projects or DSL exploration.
 
@@ -86,10 +86,3 @@ lqf = "0.1.1"
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues, submit pull requests, or discuss ideas.
-
-## 🔮 Roadmap
-- [ ] Import support, ex: `!include "defaults.lqf"`
-- [ ] Inline tables, ex: `person >> { name: "Bob", age: 32, city: "Detroit" }`
-- [ ] Trailing commas
-
-
